@@ -1,0 +1,60 @@
+
+.marcado{
+    display: block;
+    line-height: 4px;
+    text-align: center;
+    
+}
+
+h1{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%; 
+    background: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    padding-left: 30px;
+    background-color: rgb(245, 245, 220);
+    padding-bottom: 5px;
+}
+
+#contenedor{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #e9dcd0;
+}
+
+.a{
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+}
+.a:hover{
+    background-color: rgb(192, 180, 180);
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;    
+}
+
+article{
+    column-count: 2;
+    column-gap: 150px;
+    text-align: justify;
+    background-color: white;
+    margin-top: 30px;
+    padding: 25px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 7%;
+}
